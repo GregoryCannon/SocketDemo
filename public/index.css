@@ -1,0 +1,10 @@
+
+h1 {
+  color: navy;
+  font-family: sans-serif;
+}
+
+#root, .child-container {
+  border: 1px solid black;
+  padding: 12px;
+}

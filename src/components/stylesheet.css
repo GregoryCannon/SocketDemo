@@ -1,0 +1,50 @@
+
+#root {
+  background-color: lightskyblue;
+  border: 1px solid black;
+  padding: 32px;
+  --blue: lightskyblue;
+}
+
+.app-root {
+  text-align: center;
+}
+
+h1 {
+  color: navy;
+  font-family: sans-serif;
+}
+
+.app-root > h4 {
+  margin: 4px 0;
+}
+
+.message-box {
+  width: auto;
+  height: auto;
+  max-height: 250px;
+  overflow: scroll;
+  margin: 0 auto 32px;
+  background: white;
+  display: inline-block;
+  padding-right: 16px;
+  text-align: left;
+}
+
+.message-box li {
+  padding: 2px 0
+}
+
+.page-container {
+  border: 1px solid black;
+  padding: 12px;
+  background: white;
+}
+
+.page-container a {
+  padding: 8px
+}
+
+.page-container h5 {
+  margin-bottom: 32px;
+}
